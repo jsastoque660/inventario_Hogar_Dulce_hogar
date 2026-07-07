@@ -1,0 +1,129 @@
+<h1 class="tituloDashboard">
+    💰 Caja
+</h1>
+
+<h3 id="tituloCaja" class="subtituloCaja">
+    Resumen del día
+</h3>
+
+<!-- ===================== -->
+<!-- BUSCADOR POR DÍA -->
+<!-- ===================== -->
+
+<div class="barraFiltros">
+
+    <label>Buscar por día</label>
+
+    <input
+        type="date"
+        id="buscarDia">
+
+    <button onclick="buscarCajaDia()">
+        Buscar
+    </button>
+
+</div>
+
+<!-- ===================== -->
+<!-- BUSCADOR POR MES -->
+<!-- ===================== -->
+
+<div class="barraFiltros">
+
+    <label>Buscar por mes</label>
+
+    <select id="buscarMes">
+
+        <option value="01">Enero</option>
+        <option value="02">Febrero</option>
+        <option value="03">Marzo</option>
+        <option value="04">Abril</option>
+        <option value="05">Mayo</option>
+        <option value="06">Junio</option>
+        <option value="07">Julio</option>
+        <option value="08">Agosto</option>
+        <option value="09">Septiembre</option>
+        <option value="10">Octubre</option>
+        <option value="11">Noviembre</option>
+        <option value="12">Diciembre</option>
+
+    </select>
+
+    <input
+        type="number"
+        id="buscarAnio"
+        value="2026"
+        min="2024"
+        max="2100">
+
+    <button onclick="buscarCajaMes()">
+        Buscar
+    </button>
+
+</div>
+
+<h2 class="tituloSeccion">
+
+    Resumen
+
+</h2>
+
+<div class="dashboardGrid">
+
+    <div class="cardDashboard ventas">
+
+        <span>Ventas</span>
+
+        <h2 id="cajaVentas">$0</h2>
+
+    </div>
+
+    <div class="cardDashboard compras">
+
+        <span>Compras</span>
+
+        <h2 id="cajaCompras">$0</h2>
+
+    </div>
+
+    <div class="cardDashboard ganancia">
+
+        <span>Ganancia</span>
+
+        <h2 id="cajaGanancia">$0</h2>
+
+    </div>
+
+    <div class="cardDashboard movimientos">
+
+        <span>Movimientos</span>
+
+        <h2 id="cajaMovimientos">0</h2>
+
+    </div>
+
+    <div class="cardDashboard vendidos">
+
+        <span>Productos vendidos</span>
+
+        <h2 id="productosVendidos">0</h2>
+
+    </div>
+
+    <div class="cardDashboard comprados">
+
+        <span>Productos comprados</span>
+
+        <h2 id="productosComprados">0</h2>
+
+    </div>
+
+    <div class="cardDashboard rentabilidad">
+
+        <span>Rentabilidad</span>
+
+        <h2 id="rentabilidad">0%</h2>
+
+    </div>
+
+</div>

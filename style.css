@@ -658,3 +658,69 @@ td{
     font-weight:bold;
 
 }
+
+/*======================================
+=              CAJA
+======================================*/
+
+.subtituloCaja{
+
+    text-align:center;
+
+    color:#666;
+
+    margin-top:-10px;
+
+    margin-bottom:25px;
+
+    font-weight:normal;
+
+    font-size:18px;
+
+}
+
+/*======================================
+=         COLORES CAJA
+======================================*/
+
+.ventas{
+
+    background:#1976d2;
+
+}
+
+.compras{
+
+    background:#fb8c00;
+
+}
+
+.ganancia{
+
+    background:#43a047;
+
+}
+
+.movimientos{
+
+    background:#616161;
+
+}
+
+.vendidos{
+
+    background:#8e24aa;
+
+}
+
+.comprados{
+
+    background:#00acc1;
+
+}
+
+.rentabilidad{
+
+    background:#2e7d32;
+
+}

@@ -77,6 +77,10 @@ function cargarVista(nombre){
                 actualizarEstadoBackup();
                 break;
 
+            case "caja":
+                actualizarCajaHoy();
+            break;
+
         }
 
     });

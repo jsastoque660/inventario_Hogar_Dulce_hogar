@@ -33,39 +33,99 @@ function exportarRespaldo() {
 
 }
 
-function importarRespaldo(evento){
+async function exportarRespaldo() {
 
-    const archivo = evento.target.files[0];
+    try {
 
-    if(!archivo) return;
+        const respaldo = {
 
-    const lector = new FileReader();
+            productos,
 
-    lector.onload = function(e){
+            movimientos,
 
-        const datos = JSON.parse(e.target.result);
+            fecha: new Date().toLocaleString(),
 
-        productos = datos.productos || [];
+            version: "1.0"
 
-        movimientos = datos.movimientos || [];
+        };
 
-        guardar();
+        const contenido = JSON.stringify(
+            respaldo,
+            null,
+            4
+        );
 
-        mostrarProductos();
+        const ahora = new Date();
 
-        mostrarMovimientos();
+        const fecha =
+            ahora.toISOString().split("T")[0];
 
-        actualizarSelect();
+        const hora =
+            String(ahora.getHours()).padStart(2, "0") +
+            "-" +
+            String(ahora.getMinutes()).padStart(2, "0");
 
-        actualizarResumen();
+        const archivo = await window.showSaveFilePicker({
 
-        actualizarDashboard();
+            suggestedName:
+                `Inventario_Hogar_Dulce_Hogar_${fecha}_${hora}.json`,
 
-        alert("Respaldo restaurado correctamente.");
+            types: [
 
-    };
+                {
 
-    lector.readAsText(archivo);
+                    description: "Archivo de respaldo JSON",
+
+                    accept: {
+
+                        "application/json": [".json"]
+
+                    }
+
+                }
+
+            ]
+
+        });
+
+        const writable = await archivo.createWritable();
+
+        await writable.write(contenido);
+
+        await writable.close();
+
+        localStorage.setItem(
+
+            "ultimoBackup",
+
+            ahora.toLocaleString()
+
+        );
+
+        actualizarEstadoBackup();
+
+        alert("✅ Backup creado correctamente.");
+
+    }
+
+    catch(error){
+
+        // Si el usuario presiona Cancelar,
+        // simplemente no hacemos nada.
+
+        if(error.name === "AbortError"){
+
+            return;
+
+        }
+
+        console.error(error);
+
+        alert(
+            "❌ Ocurrió un error al crear el backup."
+        );
+
+    }
 
 }
 

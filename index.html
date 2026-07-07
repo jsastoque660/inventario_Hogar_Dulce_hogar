@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sistema de Inventario</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- ========================= -->
+        <!-- MENÚ LATERAL -->
+        <!-- ========================= -->
+
+        <aside class="sidebar">
+
+            <h2>📦 Inventario</h2>
+
+            <nav>
+
+                <button onclick="cargarVista('dashboard')">
+                    🏠 Dashboard
+                </button>
+
+                <button onclick="cargarVista('productos')">
+                    📦 Productos
+                </button>
+
+                <button onclick="cargarVista('movimientos')">
+                    🔄 Movimientos
+                </button>
+
+                <button onclick="cargarVista('historial')">
+                    📋 Historial
+                </button>
+
+                <button onclick="cargarVista('inventario')">
+                    📚 Inventario
+                </button>
+
+                <button onclick="cargarVista('resumen')">
+                    📊 Resumen
+                </button>
+
+            </nav>
+
+        </aside>
+
+        <!-- ========================= -->
+        <!-- CONTENIDO -->
+        <!-- ========================= -->
+
+        <main class="contenido">
+
+            <div id="vista">
+
+            </div>
+
+        </main>
+
+    </div>
+
+    <script src="js/utilidades.js"></script>
+    <script src="js/productos.js"></script>
+    <script src="js/entradas.js"></script>
+    <script src="js/ventas.js"></script>
+    <script src="js/movimientos.js"></script>
+    <script src="js/dashboard.js"></script>
+    <script src="js/resumen.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>

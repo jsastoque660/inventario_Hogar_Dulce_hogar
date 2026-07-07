@@ -1,0 +1,58 @@
+<h1>Historial de Movimientos</h1>
+
+<div class="barraFiltros">
+
+    <input
+        type="text"
+        id="buscarMovimiento"
+        placeholder="🔎 Buscar producto...">
+
+    <select id="filtroTipo">
+        <option value="Todos">Todos</option>
+        <option value="Entrada">Entradas</option>
+        <option value="Venta">Ventas</option>
+    </select>
+
+    <select id="ordenMovimiento">
+        <option value="reciente">Más recientes</option>
+        <option value="antiguo">Más antiguos</option>
+    </select>
+
+    <input type="date" id="fechaDesde">
+
+    <input type="date" id="fechaHasta">
+
+    <button id="btnLimpiarFiltros">
+        Limpiar
+    </button>
+
+</div>
+
+<div class="seccion">
+
+    <table>
+
+        <thead>
+
+            <tr>
+
+                <th>Fecha</th>
+                <th>Código</th>
+                <th>Producto</th>
+                <th>Tipo</th>
+                <th>Cantidad</th>
+                <th>Precio</th>
+                <th>Total</th>
+                <th>Acciones</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody id="tablaMovimientos">
+
+        </tbody>
+
+    </table>
+
+</div>

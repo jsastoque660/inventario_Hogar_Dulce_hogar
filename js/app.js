@@ -72,6 +72,10 @@ function cargarVista(nombre){
             case "resumen":
                 actualizarResumen();
                 break;
+            
+            case "backup":
+                actualizarEstadoBackup();
+                break;
 
         }
 

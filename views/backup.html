@@ -1,0 +1,104 @@
+<h1 class="tituloDashboard">
+    💾 Copias de Seguridad
+</h1>
+
+<div class="contenedorBackup">
+
+    <div class="cardBackup">
+
+        <h2>Crear respaldo</h2>
+
+        <p>
+            Descarga un archivo con toda la información
+            del sistema.
+        </p>
+
+        <button onclick="exportarRespaldo()">
+            💾 Crear respaldo
+        </button>
+
+    </div>
+
+    <div class="cardBackup">
+
+        <h2>Restaurar respaldo</h2>
+
+        <p>
+            Carga un respaldo previamente guardado.
+        </p>
+
+        <label class="btnImportar">
+
+            📂 Seleccionar archivo
+
+            <input
+                type="file"
+                id="archivoBackup"
+                accept=".json"
+                hidden
+                onchange="importarRespaldo(event)">
+
+        </label>
+
+    </div>
+
+</div>
+
+<hr>
+
+<div class="infoBackup">
+
+    <h2>Información del sistema</h2>
+
+    <table>
+
+        <tr>
+            <td>Último Backup</td>
+            <td id="ultimoBackup">Nunca</td>
+        </tr>
+
+        <tr>
+            <td>Versión</td>
+            <td>1.0</td>
+        </tr>
+
+        <tr>
+            <td>Estado</td>
+            <td id="estadoBackup" class="estadoSeguro">
+                🟢 Protegido
+            </td>
+        </tr>
+
+        <tr>
+            <td>Productos registrados</td>
+            <td id="infoProductos">0</td>
+        </tr>
+
+        <tr>
+            <td>Movimientos registrados</td>
+            <td id="infoMovimientos">0</td>
+        </tr>
+
+        <tr>
+            <td>Valor del inventario</td>
+            <td id="infoInventario">$0</td>
+        </tr>
+
+        <tr>
+            <td>Última entrada</td>
+            <td id="ultimaEntrada">Sin registros</td>
+        </tr>
+
+        <tr>
+            <td>Última venta</td>
+            <td id="ultimaVenta">Sin registros</td>
+        </tr>
+
+        <tr>
+            <td>Tamaño estimado del Backup</td>
+            <td id="tamanoBackup">0 KB</td>
+        </tr>
+
+    </table>
+
+</div>

@@ -1,0 +1,529 @@
+{
+    "productos": [
+        {
+            "codigo": "001",
+            "nombre": "Almohada espuma promoción",
+            "precioCompra": 5000,
+            "stock": 0,
+            "stockMinimo": 3,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "002",
+            "nombre": "Almohada Silicona 40x65 rojo",
+            "precioCompra": 11000,
+            "stock": 0,
+            "stockMinimo": 3,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "003",
+            "nombre": "Almohada Terms 40 x65 viajera",
+            "precioCompra": 14000,
+            "stock": 0,
+            "stockMinimo": 3,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "004",
+            "nombre": "Almohada Terms 50 x75 viajera",
+            "precioCompra": 18000,
+            "stock": 0,
+            "stockMinimo": 3,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "005",
+            "nombre": "Almohada Duo 50 x70",
+            "precioCompra": 16000,
+            "stock": 0,
+            "stockMinimo": 3,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "006",
+            "nombre": "Almohada Duo viajera 50 x75",
+            "precioCompra": 18000,
+            "stock": 0,
+            "stockMinimo": 3,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "007",
+            "nombre": "Sabana girasol sencilla",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 3,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "008",
+            "nombre": "Sabana girasol semidoble estampada",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 3,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "009",
+            "nombre": "Sabana gloria paipa semidoble unicolor",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 3,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "010",
+            "nombre": "Sabana girasol doble estampada",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 3,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "011",
+            "nombre": "Sabana grecia doble estampada",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 3,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "012",
+            "nombre": "Sabana primavera doble estampada",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 3,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "013",
+            "nombre": "Sabana gloria paipa doble unicolor",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 3,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "014",
+            "nombre": "Sabana Marsella Queen unicolor",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 3,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "015",
+            "nombre": "Sabana Marathon King estampada",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 5,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "016",
+            "nombre": "Sabana gloria paipa King unicolor",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 3,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "017",
+            "nombre": "Sabana grecia King estampada",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 3,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "018",
+            "nombre": "Sabana girasol King estampada",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 3,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "019",
+            "nombre": "Sabana Térmica doble",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 3,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "020",
+            "nombre": "Cortina Persina Yacar botón",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 3,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "021",
+            "nombre": "Protector Colchón Terry  sencillo",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 3,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "022",
+            "nombre": "Protector Colchón acolchado Paipa doble unicolor",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 3,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "023",
+            "nombre": "Protector Colchón acolchado Paipa King estampado",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 3,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "024",
+            "nombre": "Protector Colchón Mónaco Termosellado doble unicolor",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 3,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "025",
+            "nombre": "Bayetilla roja 50x35cm",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 5,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "026",
+            "nombre": "Limpión microfibra",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 5,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "027",
+            "nombre": "Colcha española Marathon Temosellada doble",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 3,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "028",
+            "nombre": "Edredón sencillo niño tela estampada",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 2,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "029",
+            "nombre": "Edredón sencillo niña tela estampada",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 2,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "030",
+            "nombre": "Edredón Chanubs peluche suevetina doble",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 2,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "031",
+            "nombre": "Edredón Chanubs  suevetina tela doble",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 2,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "032",
+            "nombre": "Cobija Pato",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 5,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "033",
+            "nombre": "Cobija Luminosa",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 5,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "034",
+            "nombre": "Cobija Ovejera lisa",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 5,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "035",
+            "nombre": "Cobija Ovejera labrada",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 5,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "036",
+            "nombre": "Cobija Marathon ovejera",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 2,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "037",
+            "nombre": "Cobija Trenza",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 3,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "038",
+            "nombre": "Cobija triangulo",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 2,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "039",
+            "nombre": "Cobija Solo Tono Delgada",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 4,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "040",
+            "nombre": "Cobija Solo Tono Gruesa Tunja",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 5,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "041",
+            "nombre": "Cobija Semi Térmica Cuadros",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 2,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "042",
+            "nombre": "Cobija equipos",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 3,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "043",
+            "nombre": "Sabana Marsella Doble unicolor",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 2,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "044",
+            "nombre": "Sabana Girsol Queen estampada",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 3,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "045",
+            "nombre": "Protector Colchón Terry doble ensueño blanco",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 2,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "046",
+            "nombre": "Protector Colchón Terry semidoble ensueño blanco",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 2,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "047",
+            "nombre": "Limpión rayado poliester 40 x 40 cm",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 5,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "048",
+            "nombre": "Protector colchón semidoble alcolchado paipa 120 x 190",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 2,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "049",
+            "nombre": "Protector colchón sencillo alcolchado paipa 100 x 190",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 2,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "50",
+            "nombre": "Tapete antideslizante baño",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 3,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "051",
+            "nombre": "Tapete pie de cama",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 3,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "52",
+            "nombre": "Individual de mesa paquete x 6",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 2,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "053",
+            "nombre": "Almohada Termosellada fibra retazo 70x50 sog",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 2,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "054",
+            "nombre": "Cojín Termosellado espuma 40x40 sog",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 2,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "055",
+            "nombre": "Edredón  suevetina  doble",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 2,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "056",
+            "nombre": "Cobija jaguar 1.95 x 2.15",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 2,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "057",
+            "nombre": "Cobija ovejera tipo edredón  1.95 x 2.15",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 2,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "058",
+            "nombre": "Funda almohada LORY 50 X 70 poliester X 2",
+            "precioCompra": 1,
+            "stock": 0,
+            "stockMinimo": 5,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        }
+    ],
+    "movimientos": [],
+    "fecha": "9/7/2026, 1:30:42 p. m.",
+    "version": "1.0"
+}

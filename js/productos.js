@@ -112,8 +112,24 @@ function editarProducto(i){
 
 function eliminarProducto(i){
 
-    if(!confirm("¿Deseas eliminar este producto?")){
+    const tieneMovimientos = movimientos.some(
+        m => m.productoCodigo === productos[i].codigo
+    );
+
+    if(tieneMovimientos){
+
+        alert(
+            `No se puede eliminar "${productos[i].nombre}" porque tiene movimientos registrados.`
+        );
+
         return;
+
+    }
+
+    if(!confirm("¿Deseas eliminar este producto?")){
+
+        return;
+
     }
 
     productos.splice(i,1);
@@ -122,7 +138,6 @@ function eliminarProducto(i){
     mostrarProductos();
     actualizarSelect();
     actualizarDashboard();
-
 }
 
 function actualizarSelect() {

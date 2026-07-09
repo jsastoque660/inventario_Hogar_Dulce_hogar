@@ -14,14 +14,26 @@ function mostrarMovimientos(lista = movimientos) {
             mov => mov.id === m.id
         );
 
+        // Buscar el producto actual por su código
+        const productoActual = productos.find(
+            p => p.codigo === m.productoCodigo
+        );
+
+        // Si existe, usar el nombre actual.
+        // Si no existe (por ejemplo, el producto fue eliminado),
+        // usar el nombre guardado en el movimiento.
+        const nombreProducto = productoActual
+            ? productoActual.nombre
+            : (m.productoNombre || m.producto || "");
+
         tabla.innerHTML += `
             <tr>
                 <td>${formatearFecha(m.fecha)}</td>
-                <td>${m.productoCodigo || ""}</td>
-                <td>${m.productoNombre || m.producto || ""}</td>
+               <td>${m.productoCodigo || ""}</td>
+                <td>${nombreProducto}</td>
                 <td>
                     <span class="${m.tipo === 'Entrada' ? 'badgeEntrada' : 'badgeVenta'}">
-                    ${m.tipo}
+                        ${m.tipo}
                     </span>
                 </td>
                 <td>${m.cantidad || 0}</td>

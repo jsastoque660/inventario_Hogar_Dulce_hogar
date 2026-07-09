@@ -65,10 +65,6 @@ function cargarVista(nombre){
                 iniciarFiltrosMovimientos();
                 break;
 
-            case "inventario":
-                mostrarProductos();
-                break;
-
             case "resumen":
                 actualizarResumen();
                 break;

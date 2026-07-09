@@ -1,38 +1,3 @@
-function exportarRespaldo() {
-
-    const respaldo = {
-
-        productos: productos,
-
-        movimientos: movimientos,
-
-        fecha: new Date().toLocaleString(),
-
-        version: "1.0"
-
-    };
-
-    const texto = JSON.stringify(respaldo, null, 4);
-
-    const blob = new Blob([texto], {
-
-        type: "application/json"
-
-    });
-
-    const enlace = document.createElement("a");
-
-    enlace.href = URL.createObjectURL(blob);
-
-    const hoy = new Date().toISOString().split("T")[0];
-
-    enlace.download =
-        `Inventario_Hogar_Dulce_Hogar_${hoy}.json`;
-
-    enlace.click();
-
-}
-
 async function exportarRespaldo() {
 
     try {
@@ -189,5 +154,53 @@ function actualizarEstadoBackup(){
 
     document.getElementById("tamanoBackup").innerText =
         kb + " KB";
+
+}
+
+function importarRespaldo(event){
+
+    const archivo = event.target.files[0];
+
+    if(!archivo){
+
+        return;
+
+    }
+
+    const lector = new FileReader();
+
+    lector.onload = function(e){
+
+        try{
+
+            const respaldo = JSON.parse(e.target.result);
+
+            productos = respaldo.productos || [];
+
+            movimientos = respaldo.movimientos || [];
+
+            guardar();
+
+            actualizarSelect();
+            mostrarProductos();
+            mostrarMovimientos();
+            actualizarResumen();
+            actualizarDashboard();
+            actualizarEstadoBackup();
+
+            alert("✅ Respaldo importado correctamente.");
+
+        }
+        catch(error){
+
+            alert("El archivo seleccionado no es un respaldo válido.");
+
+            console.error(error);
+
+        }
+
+    };
+
+    lector.readAsText(archivo);
 
 }

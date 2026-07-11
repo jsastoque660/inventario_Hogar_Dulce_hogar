@@ -1,0 +1,1276 @@
+{
+    "productos": [
+        {
+            "codigo": "001",
+            "nombre": "Almohada espuma promoción",
+            "precioCompra": 5000,
+            "stock": 5,
+            "stockMinimo": 3,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": "9/7/2026"
+        },
+        {
+            "codigo": "002",
+            "nombre": "Almohada Silicona 40x65 pluma",
+            "precioCompra": 11000,
+            "stock": 6,
+            "stockMinimo": 3,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "003",
+            "nombre": "Almohada Terms 40x65 viajera Paipa",
+            "precioCompra": 14000,
+            "stock": 4,
+            "stockMinimo": 3,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "004",
+            "nombre": "Almohada Terms 50x75 viajera Paipa",
+            "precioCompra": 18000,
+            "stock": 2,
+            "stockMinimo": 3,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "005",
+            "nombre": "Almohada Duo 50 x70",
+            "precioCompra": 16000,
+            "stock": 10,
+            "stockMinimo": 3,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "006",
+            "nombre": "Almohada Duo terms viajera 50 x75",
+            "precioCompra": 18000,
+            "stock": 8,
+            "stockMinimo": 3,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "007",
+            "nombre": "Sabana girasol sencilla",
+            "precioCompra": 29000,
+            "stock": 6,
+            "stockMinimo": 3,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "008",
+            "nombre": "Sabana girasol semidoble estampada",
+            "precioCompra": 31000,
+            "stock": 2,
+            "stockMinimo": 3,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "009",
+            "nombre": "Sabana gloria paipa semidoble unicolor",
+            "precioCompra": 37000,
+            "stock": 1,
+            "stockMinimo": 3,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "010",
+            "nombre": "Sabana girasol doble estampada",
+            "precioCompra": 33000,
+            "stock": 2,
+            "stockMinimo": 3,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "011",
+            "nombre": "Sabana grecia doble estampada",
+            "precioCompra": 34000,
+            "stock": 1,
+            "stockMinimo": 3,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "012",
+            "nombre": "Sabana primavera doble estampada",
+            "precioCompra": 30000,
+            "stock": 1,
+            "stockMinimo": 3,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": "10/7/2026"
+        },
+        {
+            "codigo": "013",
+            "nombre": "Sabana gloria paipa doble unicolor",
+            "precioCompra": 37000,
+            "stock": 0,
+            "stockMinimo": 3,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "014",
+            "nombre": "Sabana Marsella Queen unicolor",
+            "precioCompra": 36000,
+            "stock": 4,
+            "stockMinimo": 3,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "015",
+            "nombre": "Sabana Marathon King estampada",
+            "precioCompra": 48000,
+            "stock": 1,
+            "stockMinimo": 5,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "016",
+            "nombre": "Sabana gloria paipa King unicolor",
+            "precioCompra": 50000,
+            "stock": 1,
+            "stockMinimo": 3,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "017",
+            "nombre": "Sabana grecia King estampada",
+            "precioCompra": 43000,
+            "stock": 1,
+            "stockMinimo": 3,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "018",
+            "nombre": "Sabana girasol King estampada",
+            "precioCompra": 43000,
+            "stock": 1,
+            "stockMinimo": 3,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "019",
+            "nombre": "Sabana Térmica doble",
+            "precioCompra": 46000,
+            "stock": 3,
+            "stockMinimo": 3,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "020",
+            "nombre": "Cortina Persina Yacar botón",
+            "precioCompra": 35000,
+            "stock": 2,
+            "stockMinimo": 3,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "021",
+            "nombre": "Protector Colchón Terry  sencillo",
+            "precioCompra": 35000,
+            "stock": 1,
+            "stockMinimo": 3,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "022",
+            "nombre": "Protector Colchón acolchado Paipa doble unicolor",
+            "precioCompra": 32000,
+            "stock": 2,
+            "stockMinimo": 3,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "023",
+            "nombre": "Protector Colchón acolchado Paipa King estampado",
+            "precioCompra": 48000,
+            "stock": 0,
+            "stockMinimo": 3,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "024",
+            "nombre": "Protector Colchón Mónaco Termosellado doble unicolor",
+            "precioCompra": 28000,
+            "stock": 1,
+            "stockMinimo": 3,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "025",
+            "nombre": "Bayetilla roja 50x35cm",
+            "precioCompra": 1250,
+            "stock": 12,
+            "stockMinimo": 5,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "026",
+            "nombre": "Limpión microfibra",
+            "precioCompra": 1500,
+            "stock": 9,
+            "stockMinimo": 5,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "027",
+            "nombre": "Colcha española Marathon Temosellada doble",
+            "precioCompra": 56000,
+            "stock": 5,
+            "stockMinimo": 3,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "028",
+            "nombre": "Edredón sencillo niño tela estampada",
+            "precioCompra": 65000,
+            "stock": 1,
+            "stockMinimo": 2,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "029",
+            "nombre": "Edredón sencillo niña tela estampada",
+            "precioCompra": 65000,
+            "stock": 1,
+            "stockMinimo": 2,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "030",
+            "nombre": "Edredón Chanubs peluche suevetina doble",
+            "precioCompra": 160000,
+            "stock": 0,
+            "stockMinimo": 2,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": "10/7/2026"
+        },
+        {
+            "codigo": "031",
+            "nombre": "Edredón Chanubs  suevetina tela doble",
+            "precioCompra": 150000,
+            "stock": 1,
+            "stockMinimo": 2,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "032",
+            "nombre": "Cobija Pato",
+            "precioCompra": 20000,
+            "stock": 13,
+            "stockMinimo": 5,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "033",
+            "nombre": "Cobija Luminosa",
+            "precioCompra": 46000,
+            "stock": 1,
+            "stockMinimo": 5,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "034",
+            "nombre": "Cobija Ovejera lisa",
+            "precioCompra": 55000,
+            "stock": 4,
+            "stockMinimo": 5,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "035",
+            "nombre": "Cobija Ovejera labrada troquelada",
+            "precioCompra": 55000,
+            "stock": 2,
+            "stockMinimo": 5,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "036",
+            "nombre": "Cobija Marathon ovejera",
+            "precioCompra": 70000,
+            "stock": 1,
+            "stockMinimo": 2,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "037",
+            "nombre": "Cobija Trenza",
+            "precioCompra": 58000,
+            "stock": 4,
+            "stockMinimo": 3,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "038",
+            "nombre": "Cobija triangulo",
+            "precioCompra": 46000,
+            "stock": 1,
+            "stockMinimo": 2,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "039",
+            "nombre": "Cobija Solo Tono Delgada",
+            "precioCompra": 18000,
+            "stock": 7,
+            "stockMinimo": 4,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "040",
+            "nombre": "Cobija Solo Tono Gruesa Tunja",
+            "precioCompra": 22000,
+            "stock": 10,
+            "stockMinimo": 5,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "041",
+            "nombre": "Cobija Semi Térmica Cuadros",
+            "precioCompra": 18000,
+            "stock": 1,
+            "stockMinimo": 2,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "042",
+            "nombre": "Cobija equipos",
+            "precioCompra": 26000,
+            "stock": 1,
+            "stockMinimo": 3,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "043",
+            "nombre": "Sabana Marsella Doble unicolor",
+            "precioCompra": 33000,
+            "stock": 2,
+            "stockMinimo": 2,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "044",
+            "nombre": "Sabana Girsol Queen estampada",
+            "precioCompra": 40000,
+            "stock": 2,
+            "stockMinimo": 3,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "045",
+            "nombre": "Protector Colchón Terry doble ensueño blanco",
+            "precioCompra": 34000,
+            "stock": 1,
+            "stockMinimo": 2,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "046",
+            "nombre": "Protector Colchón Terry semidoble ensueño blanco",
+            "precioCompra": 37000,
+            "stock": 0,
+            "stockMinimo": 2,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "047",
+            "nombre": "Limpión rayado poliester 40 x 40 cm",
+            "precioCompra": 2000,
+            "stock": 12,
+            "stockMinimo": 5,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "048",
+            "nombre": "Protector colchón semidoble alcolchado paipa 120 x 190",
+            "precioCompra": 32000,
+            "stock": 3,
+            "stockMinimo": 2,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "049",
+            "nombre": "Protector colchón sencillo alcolchado paipa 100 x 190",
+            "precioCompra": 32000,
+            "stock": 3,
+            "stockMinimo": 2,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "050",
+            "nombre": "Tapete antideslizante baño",
+            "precioCompra": 5000,
+            "stock": 11,
+            "stockMinimo": 3,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "051",
+            "nombre": "Tapete pie de cama",
+            "precioCompra": 5000,
+            "stock": 2,
+            "stockMinimo": 3,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "052",
+            "nombre": "Individual de mesa paquete x 6",
+            "precioCompra": 5000,
+            "stock": 2,
+            "stockMinimo": 2,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "053",
+            "nombre": "Almohada Termosellada fibra retazo 70x50 sog",
+            "precioCompra": 14000,
+            "stock": 6,
+            "stockMinimo": 2,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "054",
+            "nombre": "Almohada Termosellado espuma 40x40 sog",
+            "precioCompra": 7000,
+            "stock": 3,
+            "stockMinimo": 2,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "055",
+            "nombre": "Edredón  suevetina  doble",
+            "precioCompra": 180000,
+            "stock": 1,
+            "stockMinimo": 2,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "056",
+            "nombre": "Cobija jaguar 1.95 x 2.15",
+            "precioCompra": 80000,
+            "stock": 1,
+            "stockMinimo": 2,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "057",
+            "nombre": "Cobija ovejera tipo edredón  1.95 x 2.15",
+            "precioCompra": 850000,
+            "stock": 1,
+            "stockMinimo": 2,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "058",
+            "nombre": "Funda almohada LORY 50 X 70 poliester X 2",
+            "precioCompra": 50000,
+            "stock": 11,
+            "stockMinimo": 5,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "059",
+            "nombre": "Almohada cuellos",
+            "precioCompra": 12000,
+            "stock": 7,
+            "stockMinimo": 3,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "060",
+            "nombre": "Sabana sencilla infantil ensueño",
+            "precioCompra": 29000,
+            "stock": 1,
+            "stockMinimo": 1,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "061",
+            "nombre": "Cobija piña",
+            "precioCompra": 23000,
+            "stock": 8,
+            "stockMinimo": 5,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": "10/7/2026"
+        },
+        {
+            "codigo": "062",
+            "nombre": "Cobija piel de conejo lisa unicolor",
+            "precioCompra": 35000,
+            "stock": 4,
+            "stockMinimo": 3,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "063",
+            "nombre": "Cobija piel de durazno lisa",
+            "precioCompra": 35000,
+            "stock": 3,
+            "stockMinimo": 5,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "064",
+            "nombre": "Cobija piel de conejo sublimada",
+            "precioCompra": 45000,
+            "stock": 3,
+            "stockMinimo": 3,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "065",
+            "nombre": "Cobija acanalada ovejera tunja",
+            "precioCompra": 45000,
+            "stock": 3,
+            "stockMinimo": 3,
+            "ultimaCompra": null,
+            "ultimaVenta": null
+        },
+        {
+            "codigo": "066",
+            "nombre": "Colcha infantil sencilla ensueño",
+            "precioCompra": 60000,
+            "stock": 1,
+            "stockMinimo": 2,
+            "ultimaCompra": "9/7/2026",
+            "ultimaVenta": null
+        }
+    ],
+    "movimientos": [
+        {
+            "id": 1783625397381,
+            "fecha": "2026-07-09",
+            "productoCodigo": "001",
+            "productoNombre": "Almohada espuma promoción",
+            "tipo": "Entrada",
+            "cantidad": 5,
+            "precioUnitario": 5000,
+            "total": 25000
+        },
+        {
+            "id": 1783625440950,
+            "fecha": "2026-07-09",
+            "productoCodigo": "002",
+            "productoNombre": "Almohada Silicona 40x65 pluma",
+            "tipo": "Entrada",
+            "cantidad": 6,
+            "precioUnitario": 11000,
+            "total": 66000
+        },
+        {
+            "id": 1783625469755,
+            "fecha": "2026-07-09",
+            "productoCodigo": "003",
+            "productoNombre": "Almohada Terms 40x65 viajera",
+            "tipo": "Entrada",
+            "cantidad": 4,
+            "precioUnitario": 14000,
+            "total": 56000
+        },
+        {
+            "id": 1783625518482,
+            "fecha": "2026-07-09",
+            "productoCodigo": "004",
+            "productoNombre": "Almohada Terms 50x75 viajera Paipa",
+            "tipo": "Entrada",
+            "cantidad": 2,
+            "precioUnitario": 18000,
+            "total": 36000
+        },
+        {
+            "id": 1783625925198,
+            "fecha": "2026-07-09",
+            "productoCodigo": "005",
+            "productoNombre": "Almohada Duo 50 x70",
+            "tipo": "Entrada",
+            "cantidad": 11,
+            "precioUnitario": 16000,
+            "total": 176000
+        },
+        {
+            "id": 1783626015011,
+            "fecha": "2026-07-09",
+            "productoCodigo": "006",
+            "productoNombre": "Almohada Duo terms viajera 50 x75",
+            "tipo": "Entrada",
+            "cantidad": 8,
+            "precioUnitario": 18000,
+            "total": 144000
+        },
+        {
+            "id": 1783626292561,
+            "fecha": "2026-07-09",
+            "productoCodigo": "007",
+            "productoNombre": "Sabana girasol sencilla",
+            "tipo": "Entrada",
+            "cantidad": 6,
+            "precioUnitario": 29000,
+            "total": 174000
+        },
+        {
+            "id": 1783626340093,
+            "fecha": "2026-07-09",
+            "productoCodigo": "060",
+            "productoNombre": "Sabana sencilla infantil ensueño",
+            "tipo": "Entrada",
+            "cantidad": 1,
+            "precioUnitario": 29000,
+            "total": 29000
+        },
+        {
+            "id": 1783626493052,
+            "fecha": "2026-07-09",
+            "productoCodigo": "008",
+            "productoNombre": "Sabana girasol semidoble estampada",
+            "tipo": "Entrada",
+            "cantidad": 2,
+            "precioUnitario": 31000,
+            "total": 62000
+        },
+        {
+            "id": 1783626528430,
+            "fecha": "2026-07-09",
+            "productoCodigo": "009",
+            "productoNombre": "Sabana gloria paipa semidoble unicolor",
+            "tipo": "Entrada",
+            "cantidad": 1,
+            "precioUnitario": 37000,
+            "total": 37000
+        },
+        {
+            "id": 1783626598382,
+            "fecha": "2026-07-09",
+            "productoCodigo": "010",
+            "productoNombre": "Sabana girasol doble estampada",
+            "tipo": "Entrada",
+            "cantidad": 2,
+            "precioUnitario": 33000,
+            "total": 66000
+        },
+        {
+            "id": 1783626661485,
+            "fecha": "2026-07-09",
+            "productoCodigo": "011",
+            "productoNombre": "Sabana grecia doble estampada",
+            "tipo": "Entrada",
+            "cantidad": 1,
+            "precioUnitario": 34000,
+            "total": 34000
+        },
+        {
+            "id": 1783626702715,
+            "fecha": "2026-07-09",
+            "productoCodigo": "012",
+            "productoNombre": "Sabana primavera doble estampada",
+            "tipo": "Entrada",
+            "cantidad": 2,
+            "precioUnitario": 30000,
+            "total": 60000
+        },
+        {
+            "id": 1783626798251,
+            "fecha": "2026-07-09",
+            "productoCodigo": "014",
+            "productoNombre": "Sabana Marsella Queen unicolor",
+            "tipo": "Entrada",
+            "cantidad": 4,
+            "precioUnitario": 36000,
+            "total": 144000
+        },
+        {
+            "id": 1783626823657,
+            "fecha": "2026-07-09",
+            "productoCodigo": "015",
+            "productoNombre": "Sabana Marathon King estampada",
+            "tipo": "Entrada",
+            "cantidad": 1,
+            "precioUnitario": 48000,
+            "total": 48000
+        },
+        {
+            "id": 1783626855243,
+            "fecha": "2026-07-09",
+            "productoCodigo": "016",
+            "productoNombre": "Sabana gloria paipa King unicolor",
+            "tipo": "Entrada",
+            "cantidad": 1,
+            "precioUnitario": 50000,
+            "total": 50000
+        },
+        {
+            "id": 1783626903915,
+            "fecha": "2026-07-09",
+            "productoCodigo": "017",
+            "productoNombre": "Sabana grecia King estampada",
+            "tipo": "Entrada",
+            "cantidad": 1,
+            "precioUnitario": 43000,
+            "total": 43000
+        },
+        {
+            "id": 1783626927397,
+            "fecha": "2026-07-09",
+            "productoCodigo": "018",
+            "productoNombre": "Sabana girasol King estampada",
+            "tipo": "Entrada",
+            "cantidad": 1,
+            "precioUnitario": 43000,
+            "total": 43000
+        },
+        {
+            "id": 1783626987965,
+            "fecha": "2026-07-09",
+            "productoCodigo": "019",
+            "productoNombre": "Sabana Térmica doble",
+            "tipo": "Entrada",
+            "cantidad": 3,
+            "precioUnitario": 46000,
+            "total": 138000
+        },
+        {
+            "id": 1783627030499,
+            "fecha": "2026-07-09",
+            "productoCodigo": "020",
+            "productoNombre": "Cortina Persina Yacar botón",
+            "tipo": "Entrada",
+            "cantidad": 2,
+            "precioUnitario": 35000,
+            "total": 70000
+        },
+        {
+            "id": 1783627349429,
+            "fecha": "2026-07-09",
+            "productoCodigo": "021",
+            "productoNombre": "Protector Colchón Terry  sencillo",
+            "tipo": "Entrada",
+            "cantidad": 1,
+            "precioUnitario": 35000,
+            "total": 35000
+        },
+        {
+            "id": 1783627387635,
+            "fecha": "2026-07-09",
+            "productoCodigo": "022",
+            "productoNombre": "Protector Colchón acolchado Paipa doble unicolor",
+            "tipo": "Entrada",
+            "cantidad": 2,
+            "precioUnitario": 32000,
+            "total": 64000
+        },
+        {
+            "id": 1783627438483,
+            "fecha": "2026-07-09",
+            "productoCodigo": "024",
+            "productoNombre": "Protector Colchón Mónaco Termosellado doble unicolor",
+            "tipo": "Entrada",
+            "cantidad": 1,
+            "precioUnitario": 28000,
+            "total": 28000
+        },
+        {
+            "id": 1783627530860,
+            "fecha": "2026-07-09",
+            "productoCodigo": "025",
+            "productoNombre": "Bayetilla roja 50x35cm",
+            "tipo": "Entrada",
+            "cantidad": 12,
+            "precioUnitario": 1250,
+            "total": 15000
+        },
+        {
+            "id": 1783627588407,
+            "fecha": "2026-07-09",
+            "productoCodigo": "026",
+            "productoNombre": "Limpión microfibra",
+            "tipo": "Entrada",
+            "cantidad": 9,
+            "precioUnitario": 1500,
+            "total": 13500
+        },
+        {
+            "id": 1783627743134,
+            "fecha": "2026-07-09",
+            "productoCodigo": "027",
+            "productoNombre": "Colcha española Marathon Temosellada doble",
+            "tipo": "Entrada",
+            "cantidad": 5,
+            "precioUnitario": 56000,
+            "total": 280000
+        },
+        {
+            "id": 1783627803093,
+            "fecha": "2026-07-09",
+            "productoCodigo": "028",
+            "productoNombre": "Edredón sencillo niño tela estampada",
+            "tipo": "Entrada",
+            "cantidad": 1,
+            "precioUnitario": 65000,
+            "total": 65000
+        },
+        {
+            "id": 1783627811620,
+            "fecha": "2026-07-09",
+            "productoCodigo": "029",
+            "productoNombre": "Edredón sencillo niña tela estampada",
+            "tipo": "Entrada",
+            "cantidad": 1,
+            "precioUnitario": 65000,
+            "total": 65000
+        },
+        {
+            "id": 1783627839960,
+            "fecha": "2026-07-09",
+            "productoCodigo": "030",
+            "productoNombre": "Edredón Chanubs peluche suevetina doble",
+            "tipo": "Entrada",
+            "cantidad": 1,
+            "precioUnitario": 160000,
+            "total": 160000
+        },
+        {
+            "id": 1783627855588,
+            "fecha": "2026-07-09",
+            "productoCodigo": "031",
+            "productoNombre": "Edredón Chanubs  suevetina tela doble",
+            "tipo": "Entrada",
+            "cantidad": 1,
+            "precioUnitario": 150000,
+            "total": 150000
+        },
+        {
+            "id": 1783628026392,
+            "fecha": "2026-07-09",
+            "productoCodigo": "032",
+            "productoNombre": "Cobija Pato",
+            "tipo": "Entrada",
+            "cantidad": 13,
+            "precioUnitario": 20000,
+            "total": 260000
+        },
+        {
+            "id": 1783628037458,
+            "fecha": "2026-07-09",
+            "productoCodigo": "033",
+            "productoNombre": "Cobija Luminosa",
+            "tipo": "Entrada",
+            "cantidad": 1,
+            "precioUnitario": 46000,
+            "total": 46000
+        },
+        {
+            "id": 1783628080050,
+            "fecha": "2026-07-09",
+            "productoCodigo": "034",
+            "productoNombre": "Cobija Ovejera lisa",
+            "tipo": "Entrada",
+            "cantidad": 4,
+            "precioUnitario": 55000,
+            "total": 220000
+        },
+        {
+            "id": 1783628104692,
+            "fecha": "2026-07-09",
+            "productoCodigo": "035",
+            "productoNombre": "Cobija Ovejera labrada",
+            "tipo": "Entrada",
+            "cantidad": 2,
+            "precioUnitario": 55000,
+            "total": 110000
+        },
+        {
+            "id": 1783628138709,
+            "fecha": "2026-07-09",
+            "productoCodigo": "036",
+            "productoNombre": "Cobija Marathon ovejera",
+            "tipo": "Entrada",
+            "cantidad": 1,
+            "precioUnitario": 70000,
+            "total": 70000
+        },
+        {
+            "id": 1783628183156,
+            "fecha": "2026-07-09",
+            "productoCodigo": "037",
+            "productoNombre": "Cobija Trenza",
+            "tipo": "Entrada",
+            "cantidad": 4,
+            "precioUnitario": 58000,
+            "total": 232000
+        },
+        {
+            "id": 1783628201084,
+            "fecha": "2026-07-09",
+            "productoCodigo": "038",
+            "productoNombre": "Cobija triangulo",
+            "tipo": "Entrada",
+            "cantidad": 1,
+            "precioUnitario": 46000,
+            "total": 46000
+        },
+        {
+            "id": 1783628225770,
+            "fecha": "2026-07-09",
+            "productoCodigo": "039",
+            "productoNombre": "Cobija Solo Tono Delgada",
+            "tipo": "Entrada",
+            "cantidad": 7,
+            "precioUnitario": 18000,
+            "total": 126000
+        },
+        {
+            "id": 1783628267854,
+            "fecha": "2026-07-09",
+            "productoCodigo": "040",
+            "productoNombre": "Cobija Solo Tono Gruesa Tunja",
+            "tipo": "Entrada",
+            "cantidad": 10,
+            "precioUnitario": 22000,
+            "total": 220000
+        },
+        {
+            "id": 1783628278408,
+            "fecha": "2026-07-09",
+            "productoCodigo": "041",
+            "productoNombre": "Cobija Semi Térmica Cuadros",
+            "tipo": "Entrada",
+            "cantidad": 1,
+            "precioUnitario": 18000,
+            "total": 18000
+        },
+        {
+            "id": 1783628325553,
+            "fecha": "2026-07-09",
+            "productoCodigo": "042",
+            "productoNombre": "Cobija equipos",
+            "tipo": "Entrada",
+            "cantidad": 1,
+            "precioUnitario": 26000,
+            "total": 26000
+        },
+        {
+            "id": 1783628407818,
+            "fecha": "2026-07-09",
+            "productoCodigo": "043",
+            "productoNombre": "Sabana Marsella Doble unicolor",
+            "tipo": "Entrada",
+            "cantidad": 2,
+            "precioUnitario": 33000,
+            "total": 66000
+        },
+        {
+            "id": 1783628499714,
+            "fecha": "2026-07-09",
+            "productoCodigo": "044",
+            "productoNombre": "Sabana Girsol Queen estampada",
+            "tipo": "Entrada",
+            "cantidad": 2,
+            "precioUnitario": 40000,
+            "total": 80000
+        },
+        {
+            "id": 1783628515518,
+            "fecha": "2026-07-09",
+            "productoCodigo": "045",
+            "productoNombre": "Protector Colchón Terry doble ensueño blanco",
+            "tipo": "Entrada",
+            "cantidad": 1,
+            "precioUnitario": 34000,
+            "total": 34000
+        },
+        {
+            "id": 1783628694901,
+            "fecha": "2026-07-09",
+            "productoCodigo": "047",
+            "productoNombre": "Limpión rayado poliester 40 x 40 cm",
+            "tipo": "Entrada",
+            "cantidad": 12,
+            "precioUnitario": 2000,
+            "total": 24000
+        },
+        {
+            "id": 1783628718587,
+            "fecha": "2026-07-09",
+            "productoCodigo": "048",
+            "productoNombre": "Protector colchón semidoble alcolchado paipa 120 x 190",
+            "tipo": "Entrada",
+            "cantidad": 3,
+            "precioUnitario": 32000,
+            "total": 96000
+        },
+        {
+            "id": 1783628764767,
+            "fecha": "2026-07-09",
+            "productoCodigo": "049",
+            "productoNombre": "Protector colchón sencillo alcolchado paipa 100 x 190",
+            "tipo": "Entrada",
+            "cantidad": 3,
+            "precioUnitario": 32000,
+            "total": 96000
+        },
+        {
+            "id": 1783628849383,
+            "fecha": "2026-07-09",
+            "productoCodigo": "50",
+            "productoNombre": "Tapete antideslizante baño",
+            "tipo": "Entrada",
+            "cantidad": 11,
+            "precioUnitario": 5000,
+            "total": 55000
+        },
+        {
+            "id": 1783628862618,
+            "fecha": "2026-07-09",
+            "productoCodigo": "051",
+            "productoNombre": "Tapete pie de cama",
+            "tipo": "Entrada",
+            "cantidad": 2,
+            "precioUnitario": 5000,
+            "total": 10000
+        },
+        {
+            "id": 1783628876579,
+            "fecha": "2026-07-09",
+            "productoCodigo": "52",
+            "productoNombre": "Individual de mesa paquete x 6",
+            "tipo": "Entrada",
+            "cantidad": 2,
+            "precioUnitario": 5000,
+            "total": 10000
+        },
+        {
+            "id": 1783628957111,
+            "fecha": "2026-07-09",
+            "productoCodigo": "053",
+            "productoNombre": "Almohada Termosellada fibra retazo 70x50 sog",
+            "tipo": "Entrada",
+            "cantidad": 6,
+            "precioUnitario": 14000,
+            "total": 84000
+        },
+        {
+            "id": 1783629010541,
+            "fecha": "2026-07-09",
+            "productoCodigo": "054",
+            "productoNombre": "Almohada Termosellado espuma 40x40 sog",
+            "tipo": "Entrada",
+            "cantidad": 3,
+            "precioUnitario": 7000,
+            "total": 21000
+        },
+        {
+            "id": 1783629023085,
+            "fecha": "2026-07-09",
+            "productoCodigo": "055",
+            "productoNombre": "Edredón  suevetina  doble",
+            "tipo": "Entrada",
+            "cantidad": 1,
+            "precioUnitario": 180000,
+            "total": 180000
+        },
+        {
+            "id": 1783629064763,
+            "fecha": "2026-07-09",
+            "productoCodigo": "056",
+            "productoNombre": "Cobija jaguar 1.95 x 2.15",
+            "tipo": "Entrada",
+            "cantidad": 1,
+            "precioUnitario": 80000,
+            "total": 80000
+        },
+        {
+            "id": 1783629136778,
+            "fecha": "2026-07-09",
+            "productoCodigo": "057",
+            "productoNombre": "Cobija ovejera tipo edredón  1.95 x 2.15",
+            "tipo": "Entrada",
+            "cantidad": 1,
+            "precioUnitario": 850000,
+            "total": 850000
+        },
+        {
+            "id": 1783629182500,
+            "fecha": "2026-07-09",
+            "productoCodigo": "058",
+            "productoNombre": "Funda almohada LORY 50 X 70 poliester X 2",
+            "tipo": "Entrada",
+            "cantidad": 11,
+            "precioUnitario": 50000,
+            "total": 550000
+        },
+        {
+            "id": 1783629207523,
+            "fecha": "2026-07-09",
+            "productoCodigo": "059",
+            "productoNombre": "Almohada cuellos",
+            "tipo": "Entrada",
+            "cantidad": 7,
+            "precioUnitario": 12000,
+            "total": 84000
+        },
+        {
+            "id": 1783629311283,
+            "fecha": "2026-07-09",
+            "productoCodigo": "061",
+            "productoNombre": "Cobija piña",
+            "tipo": "Entrada",
+            "cantidad": 9,
+            "precioUnitario": 23000,
+            "total": 207000
+        },
+        {
+            "id": 1783629340689,
+            "fecha": "2026-07-09",
+            "productoCodigo": "062",
+            "productoNombre": "Cobija piel de conejo lisa",
+            "tipo": "Entrada",
+            "cantidad": 4,
+            "precioUnitario": 35000,
+            "total": 140000
+        },
+        {
+            "id": 1783629398158,
+            "fecha": "2026-07-09",
+            "productoCodigo": "063",
+            "productoNombre": "Cobija piel de durazno lisa",
+            "tipo": "Entrada",
+            "cantidad": 3,
+            "precioUnitario": 35000,
+            "total": 105000
+        },
+        {
+            "id": 1783629425739,
+            "fecha": "2026-07-09",
+            "productoCodigo": "064",
+            "productoNombre": "Cobija piel de conejo sublimada",
+            "tipo": "Entrada",
+            "cantidad": 3,
+            "precioUnitario": 45000,
+            "total": 135000
+        },
+        {
+            "id": 1783629454463,
+            "fecha": "2026-07-09",
+            "productoCodigo": "065",
+            "productoNombre": "Cobija acanalada ovejera tunja",
+            "tipo": "Entrada",
+            "cantidad": 3,
+            "precioUnitario": 45000,
+            "total": 135000
+        },
+        {
+            "id": 1783629696781,
+            "fecha": "2026-07-09",
+            "productoCodigo": "066",
+            "productoNombre": "Colcha infantil sencilla ensueño",
+            "tipo": "Entrada",
+            "cantidad": 1,
+            "precioUnitario": 60000,
+            "total": 60000
+        },
+        {
+            "id": 1783704245983,
+            "fecha": "2026-07-10",
+            "productoCodigo": "030",
+            "productoNombre": "Edredón Chanubs peluche suevetina doble",
+            "tipo": "Venta",
+            "cantidad": 1,
+            "precioUnitario": 240000,
+            "total": 240000,
+            "ganancia": 80000
+        },
+        {
+            "id": 1783704279730,
+            "fecha": "2026-07-10",
+            "productoCodigo": "012",
+            "productoNombre": "Sabana primavera doble estampada",
+            "tipo": "Venta",
+            "cantidad": 1,
+            "precioUnitario": 60000,
+            "total": 60000,
+            "ganancia": 30000
+        },
+        {
+            "id": 1783704289592,
+            "fecha": "2026-07-10",
+            "productoCodigo": "005",
+            "productoNombre": "Almohada Duo 50 x70",
+            "tipo": "Venta",
+            "cantidad": 1,
+            "precioUnitario": 30000,
+            "total": 30000,
+            "ganancia": 14000
+        },
+        {
+            "id": 1783728875387,
+            "fecha": "2026-07-10",
+            "productoCodigo": "061",
+            "productoNombre": "Cobija piña",
+            "tipo": "Venta",
+            "cantidad": 1,
+            "precioUnitario": 35000,
+            "total": 35000,
+            "ganancia": 12000
+        }
+    ],
+    "fecha": "10/7/2026, 10:18:51 p. m.",
+    "version": "1.0"
+}

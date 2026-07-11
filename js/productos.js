@@ -55,7 +55,11 @@ function mostrarProductos(lista = productos) {
 
     tabla.innerHTML = "";
 
-    lista.forEach((p, i) => {
+    lista.forEach((p) => {
+
+        const i = productos.findIndex(
+            producto => producto.codigo === p.codigo
+        );
 
         let color = "";
 
@@ -76,12 +80,12 @@ function mostrarProductos(lista = productos) {
                 <td>${p.nombre}</td>
                 <td>${p.stock}</td>
                 <td>${formatoCOP(p.precioCompra)}</td>
-
+    
                 <td>
                     <button onclick="editarProducto(${i})">
                         Editar
                     </button>
-
+    
                     <button onclick="eliminarProducto(${i})">
                         Eliminar
                     </button>
@@ -89,7 +93,6 @@ function mostrarProductos(lista = productos) {
 
             </tr>
         `;
-
     });
 
 }

@@ -29,7 +29,7 @@ function mostrarMovimientos(lista = movimientos) {
         tabla.innerHTML += `
             <tr>
                 <td>${formatearFecha(m.fecha)}</td>
-               <td>${m.productoCodigo || ""}</td>
+                <td>${m.productoCodigo || ""}</td>
                 <td>${nombreProducto}</td>
                 <td>
                     <span class="${m.tipo === 'Entrada' ? 'badgeEntrada' : 'badgeVenta'}">
@@ -149,13 +149,22 @@ function filtrarMovimientos() {
 
     if(texto !== ""){
 
-        lista = lista.filter(m =>
+        lista = lista.filter(m => {
 
-            m.productoCodigo.toLowerCase().includes(texto) ||
+            const producto = productos.find(
+                p => p.codigo === m.productoCodigo
+            );
 
-            m.productoNombre.toLowerCase().includes(texto)
+            const nombre = producto
+                ? producto.nombre
+                : (m.productoNombre || "");
 
-        );
+            return (
+                m.productoCodigo.toLowerCase().includes(texto) ||
+                nombre.toLowerCase().includes(texto)
+            );
+
+        });
 
     }
 

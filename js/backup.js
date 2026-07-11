@@ -22,8 +22,7 @@ async function exportarRespaldo() {
 
         const ahora = new Date();
 
-        const fecha =
-            ahora.toISOString().split("T")[0];
+        const fecha = obtenerFechaHoy();
 
         const hora =
             String(ahora.getHours()).padStart(2, "0") +

@@ -2,7 +2,7 @@ function actualizarCajaHoy(){
 
     const hoy = new Date();
 
-    const fechaHoy = hoy.toISOString().split("T")[0];
+    const fechaHoy = obtenerFechaHoy();
 
     // Inicializar búsqueda por día
     const inputDia = document.getElementById("buscarDia");

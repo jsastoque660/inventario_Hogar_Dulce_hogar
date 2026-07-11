@@ -14,16 +14,6 @@ function actualizarDashboard() {
     let sinStock = 0;
 
     // ===========================
-    // MOVIMIENTOS DE HOY
-    // ===========================
-
-    let comprasHoy = 0;
-    let ventasHoy = 0;
-    let gananciaHoy = 0;
-
-    const hoy = new Date().toLocaleDateString();
-
-    // ===========================
     // PRODUCTOS
     // ===========================
 
@@ -31,7 +21,8 @@ function actualizarDashboard() {
 
         totalUnidades += producto.stock;
 
-        valorInventario += producto.stock * producto.precioCompra;
+        valorInventario +=
+            producto.stock * producto.precioCompra;
 
         if(producto.stock <= 0){
 
@@ -41,30 +32,6 @@ function actualizarDashboard() {
         else if(producto.stock <= producto.stockMinimo){
 
             stockBajo++;
-
-        }
-
-    });
-
-    // ===========================
-    // MOVIMIENTOS
-    // ===========================
-
-    movimientos.forEach(movimiento => {
-
-        if(!movimiento.fecha.startsWith(hoy)) return;
-
-        if(movimiento.tipo === "Entrada"){
-
-            comprasHoy += movimiento.total;
-
-        }
-
-        if(movimiento.tipo === "Venta"){
-
-            ventasHoy += movimiento.total;
-
-            gananciaHoy += movimiento.ganancia || 0;
 
         }
 
@@ -82,15 +49,6 @@ function actualizarDashboard() {
 
     document.getElementById("valorInventario").innerText =
         formatoCOP(valorInventario);
-
-    document.getElementById("comprasHoy").innerText =
-        formatoCOP(comprasHoy);
-
-    document.getElementById("ventasHoy").innerText =
-        formatoCOP(ventasHoy);
-
-    document.getElementById("gananciaHoy").innerText =
-        formatoCOP(gananciaHoy);
 
     document.getElementById("stockBajo").innerText =
         stockBajo;

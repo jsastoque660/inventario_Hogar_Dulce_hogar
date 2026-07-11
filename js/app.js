@@ -44,7 +44,7 @@ function cargarVista(nombre){
                 const fecha = document.getElementById("fechaMovimiento");
 
                 if (fecha && !movimientoPendiente) {
-                    fecha.value = new Date().toISOString().split("T")[0];
+                    fecha.value = obtenerFechaHoy();
                 }
 
                 document
@@ -80,6 +80,54 @@ function cargarVista(nombre){
         }
 
     });
+
+}
+
+function obtenerFechaHoy(){
+
+    const hoy = new Date();
+
+    const anio = hoy.getFullYear();
+
+    const mes = String(hoy.getMonth() + 1).padStart(2,"0");
+
+    const dia = String(hoy.getDate()).padStart(2,"0");
+
+    return `${anio}-${mes}-${dia}`;
+
+}
+
+function obtenerFechaHoy(){
+
+    return new Intl.DateTimeFormat("en-CA",{
+
+        timeZone:"America/Bogota"
+
+    }).format(new Date());
+
+}
+
+function obtenerFechaHora(){
+
+    return new Intl.DateTimeFormat("sv-SE",{
+
+        timeZone:"America/Bogota",
+
+        year:"numeric",
+
+        month:"2-digit",
+
+        day:"2-digit",
+
+        hour:"2-digit",
+
+        minute:"2-digit",
+
+        second:"2-digit",
+
+        hour12:false
+
+    }).format(new Date()).replace(" ","T");
 
 }
 
